@@ -1,0 +1,234 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 62.5%;
+}
+
+h3{
+  margin: 0px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+nav{
+  background: #262419;
+  z-index: 100;
+  padding: 20px 13.6%;
+}
+
+
+nav > ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navText{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navText a{
+  color: white;
+}
+
+h1{
+  margin: 0px;
+  font-weight: 800;
+}
+
+header{
+  background-image: url('https://images.pexels.com/photos/4763808/pexels-photo-4763808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom -68px right 0;
+  text-align: center;
+  box-shadow: inset 0px 0px 277px 3px #2b2420;
+}
+
+ul{
+  padding-left: 0px;
+  list-style: none;
+  margin: 0px;
+}
+
+h2{
+  margin: 0px;
+  font-size: 4rem;
+  color: white; 
+  font-weight: 600;
+}
+
+.pageLinks:hover{
+  color: #006bff;
+}
+
+#headerText{
+  padding: 370px 16%;
+}
+
+.pageLinks{
+  color: #FF9400;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#aboutSection{
+  padding: 50px 30% 85px 30%;
+  background: #594C25;
+  color: white;
+  text-align: center;
+}
+
+#aboutSection h3{
+  font-size: 2.75rem;
+  margin-bottom: 35px;
+}
+
+#aboutSection p{
+  font-size: 2rem;
+  margin-top: 35px;
+  line-height: 1.75;
+}
+
+#aboutPhotoWrapper{
+  aspect-ratio: 3 / 2;
+  width: 100%;
+
+}
+
+#aboutPhotoWrapper img{
+  object-fit: contain;
+  width: 100%;
+}
+
+#servicesSection{
+  padding: 50px 30% 70px 30%;
+  background: #BF9D73;
+  color: #262419;
+  text-align: center;
+}
+
+#servicesSection h3{
+  font-size: 2.75rem;
+  margin-bottom: 80px;
+}
+
+#serviceDiagram{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serviceDiv{
+  width: 100%;
+}
+
+#serviceDiagram > div{
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  /* box-shadow: 0 0 0 1px black; */
+  margin-bottom: 60px;
+}
+
+#servicesSection i{
+  width: 100%;
+  font-size: 5rem;
+  padding-bottom: 10px;
+}
+
+.serviceDiv span{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#contactSection{
+  padding: 50px 30% 70px 30%;
+  background: #594C25;
+
+}
+
+.hidden{
+  display:none;
+}
+
+#sentMessage span{
+  font-size: 2.75rem;
+  color: white;
+  font-weight: 700;
+  padding-left: 32%;
+}
+
+#contactSection h3{
+  color: white;
+  font-size: 2.75rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contactSection h4{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#name{
+  margin-right: 2%;
+}
+
+#name, #email{
+  width: 48%;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  padding: 10px;
+  font-weight: 600;
+}
+
+#msg{
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  height: 80px;
+  padding: 10px 10px 60px 10px;
+}
+
+#subBtn{
+  font-size: 1.8rem;
+  font-weight: 600;
+  width: 20%;
+  border: none;
+  background: #262419;
+  color: white;
+  padding: 6px 8px 6px 8px;
+}
+
+footer{
+  background: #8C877D;
+  padding: 20px 13.6%;
+}
+
+footer ul{
+  display: flex;
+  justify-content: start;
+}
+
+footer li{
+  padding-right: 10px;
+  font-size: 1.2rem;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
