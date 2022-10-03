@@ -1,9 +1,7 @@
 # Travel Website
 A website made for a couple's travel service
 
-Link to project: [buddy-system.netlify.app/](https://buddy-system.netlify.app/)
-
-
+[Link to project](https://buddy-system.netlify.app/)
 
 ![travelBlog](https://user-images.githubusercontent.com/111996055/193508820-c1a37321-68db-4a3d-a20b-34b1374fc035.png)
 
