@@ -31,7 +31,7 @@ nav{
 }
 
 
-nav > ul{
+.navUl{
   display: flex;
   justify-content: space-around;
 }
@@ -232,3 +232,8 @@ footer li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media screen and (max-width: 641){
+  .navText{
+    display: none;
+  }
+}
