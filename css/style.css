@@ -208,7 +208,6 @@ h2{
 #subBtn{
   font-size: 1.8rem;
   font-weight: 600;
-  width: 20%;
   border: none;
   background: #262419;
   color: white;
@@ -234,6 +233,29 @@ footer li{
 /*******************************************/
 @media screen and (max-width: 641px){
   .menuText{
+    display: none;
+  }
+  header{
+    background-position: bottom 0 right 0;
+  }
+
+  #headerText{
+    padding: 150px 16%;
+  }
+
+  #aboutSection{
+    padding: 50px 2rem 85px 2rem;
+  }
+
+  #servicesSection {
+    padding: 50px 2rem 70px 2rem;
+  }
+
+  #contactSection{
+    padding: 50px 2rem 70px 2rem;
+  }
+
+  footer{
     display: none;
   }
 }
